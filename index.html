@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formula Truck · Resultados Oficiais</title>
+    <title>Copa Truck Elite · Resultados Oficiais</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;800;900&family=Barlow:wght@400;500;600;700&display=swap"
@@ -136,7 +136,11 @@
       }
       tbody tr.dnf {
         background: #1c1010;
-        opacity: 0.6;
+        opacity: 0.7;
+      }
+      tbody tr.dq {
+        background: #1c0a1c;
+        opacity: 0.8;
       }
       tbody tr.winner {
         border-left: 3px solid #e8b800;
@@ -253,10 +257,10 @@
   <body>
     <div class="header">
       <div class="header-inner">
-        <div class="header-label">FORMULA TRUCK · RESULTADOS OFICIAIS</div>
+        <div class="header-label">COPA TRUCK ELITE · RESULTADOS OFICIAIS</div>
         <h1>RESULTADOS &amp; CLASSIFICAÇÃO</h1>
         <div class="header-sub">
-          Etapa 2 · Santa Cruz do Sul – RS · Temporada 2026 em andamento
+          Etapa 3 · Cascavel, PR · Temporada 2026 em andamento
         </div>
       </div>
     </div>
@@ -264,7 +268,7 @@
     <div class="content">
       <div class="section-heading">
         <span class="section-badge">CORRIDA 1</span>
-        <span class="section-meta">14 voltas · 27min43s251</span>
+        <span class="section-meta">18 voltas · 26min26s917</span>
       </div>
       <div class="table-wrap">
         <table id="race1-table">
@@ -283,7 +287,7 @@
 
       <div class="section-heading">
         <span class="section-badge">CORRIDA 2</span>
-        <span class="section-meta">11 voltas · 24min05s649</span>
+        <span class="section-meta">14 voltas · 23min00s148</span>
       </div>
       <div class="table-wrap">
         <table id="race2-table">
@@ -302,7 +306,7 @@
 
       <div class="section-heading">
         <span class="section-badge">CLASSIFICAÇÃO DO CAMPEONATO</span>
-        <span class="section-meta">* parcial</span>
+        <span class="section-meta">* parcial — após 3 etapas</span>
       </div>
       <div class="legend">
         <div class="legend-item">
@@ -313,7 +317,7 @@
               border-color: #3a8fd8;
             "
           ></div>
-          DMais Motorsport
+          D+ Motorsport
         </div>
         <div class="legend-item">
           <div
@@ -342,7 +346,7 @@
       </div>
 
       <div class="footnote">
-        * Classificação parcial do campeonato. Pontuação sujeita a revisão.
+        * Classificação parcial após 3 etapas. Pontuação sujeita a revisão.
       </div>
     </div>
 
@@ -358,165 +362,227 @@
       const race1Results = [
         {
           pos: 1,
-          driver: "Diogo Moscato",
-          team: "Scuderia Chiarelli",
-          brand: "Iveco",
-          gap: "27min43s251",
-        },
-        {
-          pos: 2,
-          driver: "Maicon Roncen",
-          team: "Tiger Team",
-          brand: "Mercedes-Benz",
-          gap: "+1s474",
-        },
-        {
-          pos: 3,
-          driver: "Djalma Pivetta",
-          team: "Iveco Usual Racing",
-          brand: "Iveco",
-          gap: "+4s501",
-        },
-        {
-          pos: 4,
-          driver: "Jô Augusto Dias",
-          team: "Full Time",
-          brand: "Mercedes-Benz",
-          gap: "+13s394",
-        },
-        {
-          pos: 5,
-          driver: "Rafa Lopes",
-          team: "R9 Competições",
-          brand: "Volkswagen",
-          gap: "+13s893",
-        },
-        {
-          pos: 6,
-          driver: "Thaline Chicoski",
-          team: "Cavaleiro Sports",
-          brand: "Iveco",
-          gap: "+14s430",
-        },
-        {
-          pos: 7,
-          driver: "Juca Bala",
-          team: "GT-Oil Eletric Truck",
-          brand: "Scania",
-          gap: "+15s592",
-        },
-        {
-          pos: 8,
-          driver: "Beto Cavaleiro",
-          team: "Beto Cavaleiro",
-          brand: "Iveco",
-          gap: "+24s383",
-        },
-        {
-          pos: 9,
-          driver: "Hugo Cibien",
-          team: "Vannucci Racing",
-          brand: "Volvo",
-          gap: "+1min33s987",
-        },
-        {
-          pos: 10,
-          driver: "Daniel Kelemen",
-          team: "DMais Motorsport",
-          brand: "Mercedes-Benz",
-          gap: "+3 voltas",
-        },
-        {
-          pos: "—",
           driver: "Nicolas Giaffone",
           team: "R9 Competições",
           brand: "Volkswagen",
-          gap: "DQ",
-          dnf: true,
+          gap: "26min26s917",
         },
         {
-          pos: "—",
+          pos: 2,
           driver: "Mauricio Arias",
           team: "Tiger Team",
           brand: "Mercedes-Benz",
-          gap: "DQ",
-          dnf: true,
+          gap: "+2s248",
         },
         {
-          pos: "—",
+          pos: 3,
+          driver: "Maicon Roncen",
+          team: "Tiger Team",
+          brand: "Mercedes-Benz",
+          gap: "+3s401",
+        },
+        {
+          pos: 4,
+          driver: "Márcio Giordano",
+          team: "FF Motorsport",
+          brand: "Mercedes-Benz",
+          gap: "+8s271",
+        },
+        {
+          pos: 5,
           driver: "Ricardo Alvarez",
           team: "R9 Competições",
           brand: "Volkswagen",
-          gap: "DQ",
+          gap: "+9s994",
+        },
+        {
+          pos: 6,
+          driver: "Daniel Kelemen",
+          team: "D+ Motorsport",
+          brand: "Mercedes-Benz",
+          gap: "+11s870",
+        },
+        {
+          pos: 7,
+          driver: "Kleber Eletric",
+          team: "Eletric Truck",
+          brand: "Scania",
+          gap: "+13s168",
+        },
+        {
+          pos: 8,
+          driver: "Thaline Chicoski",
+          team: "Cavaleiro Sports",
+          brand: "Iveco",
+          gap: "+15s868",
+        },
+        {
+          pos: 9,
+          driver: "Rodrigo Taborda",
+          team: "Vannucci Racing",
+          brand: "Iveco",
+          gap: "+18s854",
+        },
+        {
+          pos: 10,
+          driver: "Vinícius Palma",
+          team: "R9 Competições",
+          brand: "Volkswagen",
+          gap: "+1 volta",
+        },
+        {
+          pos: 11,
+          driver: "Juca Bala",
+          team: "Eletric Truck",
+          brand: "Scania",
+          gap: "+1 volta",
+        },
+        {
+          pos: 12,
+          driver: "Regis Boessio",
+          team: "Boessio Competições",
+          brand: "Scania",
+          gap: "+1 volta",
+        },
+        {
+          pos: 13,
+          driver: "Djalma Pivetta",
+          team: "Iveco Usual Racing",
+          brand: "Iveco",
+          gap: "+1 volta",
+        },
+        {
+          pos: 14,
+          driver: "Diogo Moscato",
+          team: "Scuderia Chiarelli",
+          brand: "Iveco",
+          gap: "+4 voltas",
+        },
+        {
+          pos: "—",
+          driver: "Beto Cavaleiro",
+          team: "Cavaleiro Sports",
+          brand: "Iveco",
+          gap: "+13 voltas",
           dnf: true,
         },
         {
           pos: "—",
-          driver: "Vinícius Palma",
+          driver: "Hugo Cibien",
+          team: "Vannucci Racing",
+          brand: "Volvo",
+          gap: "+15 voltas",
+          dnf: true,
+        },
+        {
+          pos: "DQ",
+          driver: "Fabio Luiz",
+          team: "Tiger Team Race",
+          brand: "Mercedes-Benz",
+          gap: "DQ",
+          dq: true,
+        },
+        {
+          pos: "DQ",
+          driver: "Rafa Lopes",
           team: "R9 Competições",
           brand: "Volkswagen",
           gap: "DQ",
-          dnf: true,
+          dq: true,
         },
       ];
 
       const race2Results = [
         {
           pos: 1,
-          driver: "Juca Bala",
-          team: "GT-Oil Eletric Truck",
-          brand: "Scania",
-          gap: "24min05s649",
+          driver: "Ricardo Alvarez",
+          team: "R9 Competições",
+          brand: "Volkswagen",
+          gap: "23min00s148",
         },
         {
           pos: 2,
-          driver: "Maicon Roncen",
-          team: "Tiger Team",
+          driver: "Daniel Kelemen",
+          team: "D+ Motorsport",
           brand: "Mercedes-Benz",
-          gap: "+0s099",
+          gap: "+3s399",
         },
         {
           pos: 3,
-          driver: "Rafa Lopes",
-          team: "R9 Competições",
-          brand: "Volkswagen",
-          gap: "+13s007",
+          driver: "Thaline Chicoski",
+          team: "Cavaleiro Sports",
+          brand: "Iveco",
+          gap: "+3s741",
         },
         {
           pos: 4,
-          driver: "Djalma Pivetta",
-          team: "Iveco Usual Racing",
-          brand: "Iveco",
-          gap: "+23s206",
+          driver: "Maicon Roncen",
+          team: "Tiger Team",
+          brand: "Mercedes-Benz",
+          gap: "+11s093",
         },
         {
           pos: 5,
-          driver: "Hugo Cibien",
-          team: "Vannucci Racing",
-          brand: "Volvo",
-          gap: "+1 volta",
+          driver: "Márcio Giordano",
+          team: "FF Motorsport",
+          brand: "Mercedes-Benz",
+          gap: "+11s796",
         },
         {
           pos: 6,
-          driver: "Jô Augusto Dias",
-          team: "Full Time",
-          brand: "Mercedes-Benz",
-          gap: "+3 voltas",
-        }, // Not classified — Corrida 2 (Etapa 2)
+          driver: "Djalma Pivetta",
+          team: "Iveco Usual Racing",
+          brand: "Iveco",
+          gap: "+28s182",
+        },
         {
-          pos: "—",
+          pos: 7,
           driver: "Kleber Eletric",
-          team: "GT-Oil Eletric Truck",
+          team: "Eletric Truck",
           brand: "Scania",
-          gap: "+4 voltas",
-          dnf: true,
+          gap: "+32s167",
+        },
+        {
+          pos: 8,
+          driver: "Mauricio Arias",
+          team: "Tiger Team",
+          brand: "Mercedes-Benz",
+          gap: "+34s779",
+        },
+        {
+          pos: 9,
+          driver: "Vinícius Palma",
+          team: "R9 Competições",
+          brand: "Volkswagen",
+          gap: "+36s663",
+        },
+        {
+          pos: 10,
+          driver: "Regis Boessio",
+          team: "Boessio Competições",
+          brand: "Scania",
+          gap: "+38s805",
+        },
+        {
+          pos: 11,
+          driver: "Juca Bala",
+          team: "Eletric Truck",
+          brand: "Scania",
+          gap: "+1 volta",
+        },
+        {
+          pos: 12,
+          driver: "Nicolas Giaffone",
+          team: "R9 Competições",
+          brand: "Volkswagen",
+          gap: "+2 voltas",
         },
         {
           pos: "—",
           driver: "Rodrigo Taborda",
-          team: "Rodrigo Taborda",
+          team: "Vannucci Racing",
           brand: "Iveco",
-          gap: "+6 voltas",
+          gap: "+9 voltas",
           dnf: true,
         },
         {
@@ -524,131 +590,40 @@
           driver: "Diogo Moscato",
           team: "Scuderia Chiarelli",
           brand: "Iveco",
-          gap: "+7 voltas",
+          gap: "+13 voltas",
           dnf: true,
         },
         {
-          pos: "—",
-          driver: "Thaline Chicoski",
-          team: "Cavaleiro Sports",
-          brand: "Iveco",
-          gap: "+10 voltas",
-          dnf: true,
-        },
-        {
-          pos: "—",
-          driver: "Daniel Kelemen",
-          team: "DMais Motorsport",
-          brand: "Mercedes-Benz",
-          gap: "+11 voltas",
-          dnf: true,
-        },
-        {
-          pos: "—",
-          driver: "Beto Cavaleiro",
-          team: "Beto Cavaleiro",
-          brand: "Iveco",
-          gap: "+11 voltas",
-          dnf: true,
-        },
-        {
-          pos: "—",
-          driver: "Marcio Giordano",
-          team: "FF Motorsport",
-          brand: "Mercedes-Benz",
-          gap: "NC",
-          dnf: true,
-        },
-        {
-          pos: "—",
-          driver: "Fabio Luiz",
-          team: "Fabio Luiz",
-          brand: "Mercedes-Benz",
-          gap: "NC",
-          dnf: true,
-        },
-        {
-          pos: "—",
-          driver: "Regis Boessio",
-          team: "Regis Boessio",
-          brand: "Scania",
-          gap: "NC",
-          dnf: true,
-        },
-        {
-          pos: "—",
-          driver: "Ricardo Alvarez",
+          pos: "DQ",
+          driver: "Rafa Lopes",
           team: "R9 Competições",
           brand: "Volkswagen",
           gap: "DQ",
-          dnf: true,
-        },
-        {
-          pos: "—",
-          driver: "Nicolas Giaffone",
-          team: "R9 Competições",
-          brand: "Volkswagen",
-          gap: "DQ",
-          dnf: true,
-        },
-        {
-          pos: "—",
-          driver: "Vinícius Palma",
-          team: "R9 Competições",
-          brand: "Volkswagen",
-          gap: "DQ",
-          dnf: true,
-        },
-        {
-          pos: "—",
-          driver: "Mauricio Arias",
-          team: "Tiger Team",
-          brand: "Mercedes-Benz",
-          gap: "DQ",
-          dnf: true,
+          dq: true,
         },
       ];
 
       const championship = [
-        { driver: "Maicon Roncen", team: "Tiger Team", pts: 64 },
+        { driver: "Maicon Roncen", team: "Tiger Team", pts: 93 },
+        { driver: "Nicolas Giaffone", team: "R9 Competições", pts: 74 },
+        { driver: "Ricardo Alvarez", team: "R9 Competições", pts: 71 },
+        { driver: "Daniel Kelemen", team: "D+ Motorsport", pts: 63 },
+        { driver: "Juca Bala", team: "Eletric Truck", pts: 62 },
+        { driver: "Thaline Chicoski", team: "Cavaleiro Sports", pts: 58 },
         { driver: "Jô Augusto Dias", team: "Full Time", pts: 55 },
-        { driver: "Juca Bala", team: "GT-Oil Eletric Truck", pts: 48 },
+        { driver: "Mauricio Arias", team: "Tiger Team", pts: 49 },
+        { driver: "Djalma Pivetta", team: "Iveco Usual Racing", pts: 47 },
         { driver: "Hugo Cibien", team: "Vannucci Racing", pts: 46 },
-        { driver: "Nicolas Giaffone", team: "R9 Competições", pts: 45 },
-        { driver: "Ricardo Alvarez", team: "R9 Competições", pts: 36 },
-        { driver: "Daniel Kelemen", team: "DMais Motorsport", pts: 33 },
-        { driver: "Thaline Chicoski", team: "Cavaleiro Sports", pts: 32 },
-        { driver: "Diogo Moscato", team: "Scuderia Chiarelli", pts: 32 },
-        { driver: "Djalma Pivetta", team: "Iveco Usual Racing", pts: 30 },
+        { driver: "Márcio Giordano", team: "FF Motorsport", pts: 43 },
+        { driver: "Vinícius Palma", team: "R9 Competições", pts: 41 },
+        { driver: "Diogo Moscato", team: "Scuderia Chiarelli", pts: 38 },
+        { driver: "Kleber Eletric", team: "Eletric Truck", pts: 35 },
         { driver: "Rafa Lopes", team: "R9 Competições", pts: 29 },
-        { driver: "Vinícius Palma", team: "R9 Competições", pts: 24 },
-        { driver: "Mauricio Arias", team: "Tiger Team", pts: 21 },
-        { driver: "Márcio Giordano", team: "FF Motorsport", pts: 16 },
-        { driver: "Juca Bala", team: "GT-Oil Eletric Truck", pts: 48 },
-        { driver: "Kleber Eletric", team: "GT-Oil Eletric Truck", pts: 13 },
-        { driver: "Beto Cavaleiro", team: "Beto Cavaleiro", pts: 12 },
-        { driver: "Diogo Moscato", team: "Scuderia Chiarelli", pts: 32 },
-        { driver: "Rafa Lopes", team: "R9 Competições", pts: 29 },
-        { driver: "Djalma Pivetta", team: "Iveco Usual Racing", pts: 30 },
+        { driver: "Régis Boessio", team: "Boessio Competições", pts: 14 },
+        { driver: "Beto Cavaleiro", team: "Cavaleiro Sports", pts: 12 },
+        { driver: "Rodrigo Taborda", team: "Vannucci Racing", pts: 11 },
+        { driver: "Fábio Luiz", team: "Tiger Team Race", pts: 0 },
       ];
-
-      // remove duplicados eventuais mantendo a maior pontuação
-      const championshipMap = new Map();
-      championship.forEach((item) => {
-        const key = `${item.driver}__${item.team}`;
-        if (
-          !championshipMap.has(key) ||
-          championshipMap.get(key).pts < item.pts
-        ) {
-          championshipMap.set(key, item);
-        }
-      });
-
-      const championshipFinal = Array.from(championshipMap.values())
-        .sort(
-          (a, b) => b.pts - a.pts || a.driver.localeCompare(b.driver, "pt-BR"),
-        )
-        .map((item, index) => ({ ...item, pos: index + 1 }));
 
       function brandTag(brand) {
         const color = brandColors[brand] || "#555";
@@ -661,11 +636,34 @@
           .map((r, i) => {
             const isWinner = r.pos === 1;
             const isDnf = r.dnf;
-            let rowClass = isDnf ? "dnf" : i % 2 === 0 ? "even" : "odd";
-            rowClass += " " + (isWinner ? "winner" : "no-winner");
+            const isDq = r.dq;
 
-            const posColor = isWinner ? "#e8b800" : isDnf ? "#cc4444" : "#fff";
-            const gapColor = isDnf ? "#cc4444" : isWinner ? "#e8b800" : "#ccc";
+            let rowClass = isDq
+              ? "dq no-winner"
+              : isDnf
+                ? "dnf no-winner"
+                : i % 2 === 0
+                  ? "even"
+                  : "odd";
+
+            if (!isDnf && !isDq) {
+              rowClass += " " + (isWinner ? "winner" : "no-winner");
+            }
+
+            const posColor = isWinner
+              ? "#e8b800"
+              : isDnf || isDq
+                ? "#cc4444"
+                : "#fff";
+
+            const gapColor = isDq
+              ? "#cc44cc"
+              : isDnf
+                ? "#cc4444"
+                : isWinner
+                  ? "#e8b800"
+                  : "#ccc";
+
             const gapWeight = isWinner ? 700 : 400;
 
             return `<tr class="${rowClass}">
@@ -680,13 +678,16 @@
       }
 
       function renderChampionship() {
-        const maxPts = Math.max(...championshipFinal.map((r) => r.pts)) || 1;
+        const maxPts = Math.max(...championship.map((r) => r.pts)) || 1;
         const tbody = document.getElementById("champ-body");
-        tbody.innerHTML = championshipFinal
+
+        tbody.innerHTML = championship
           .map((r, i) => {
-            const isDMais = r.team === "DMais Motorsport";
-            const isUsual = r.team === "Iveco Usual Racing";
-            const isFirst = r.pos === 1;
+            const isDMais =
+              r.team === "DMais Motorsport" || r.team === "D+ Motorsport";
+            const isUsual =
+              r.team === "Iveco Usual Racing" || r.team === "Usual Racing";
+            const isFirst = i === 0;
 
             let rowClass = isDMais
               ? "dmais-row"
@@ -703,6 +704,7 @@
                 : isUsual
                   ? "#E04403"
                   : "#888";
+
             const ptsColor = isFirst
               ? "#e8b800"
               : isDMais
@@ -710,6 +712,7 @@
                 : isUsual
                   ? "#E04403"
                   : "#f0f0f0";
+
             const barColor = isFirst
               ? "#e8b800"
               : isDMais
@@ -717,16 +720,17 @@
                 : isUsual
                   ? "#E04403"
                   : "#555";
+
             const barWidth = (r.pts / maxPts) * 100;
 
             const tagHtml = isDMais
-              ? `<span class="team-tag" style="background:#3a8fd8">DMAIS</span>`
+              ? `<span class="team-tag" style="background:#3a8fd8">D+</span>`
               : isUsual
                 ? `<span class="team-tag" style="background:#E04403">USUAL</span>`
                 : "";
 
             return `<tr class="${rowClass}">
-      <td class="pos" style="color:${posColor}">${r.pos}º</td>
+      <td class="pos" style="color:${posColor}">${i + 1}º</td>
       <td class="driver">${r.driver}${tagHtml}</td>
       <td class="team" style="color:${isDMais || isUsual ? "#ccc" : "#999"}">${r.team}</td>
       <td class="pts-cell" style="color:${ptsColor}">${r.pts}</td>
